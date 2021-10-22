@@ -1,0 +1,240 @@
+/*--------------------------------------------------------------
+This is your custom stylesheet.
+
+Add your own styles here to make theme updates easier.
+To override any styles from other stylesheets, simply copy them into here and edit away.
+
+Make sure to respect the media queries! Otherwise you may
+accidentally add desktop styles to the mobile layout.
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+--------------------------------------------------------------*/
+.page header.entry-header {
+display: none;
+}
+
+.page .entry-content.content {
+margin-top: -70px;
+}
+
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.display-block {
+    display: block;
+}
+.main-color {
+    color : #267541;
+}
+.bg-main-color {
+    background: #267541;
+}
+.page-container {
+    justify-content: space-between;
+    align-items: stretch;
+}
+section {
+    justify-content: stretch;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+section header{
+    background: #FFFFFF;
+    height: 133px;
+}
+.content {
+    background: #B7B7B7;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+.title{
+    /* border: 1px solid green; */
+    padding-bottom: 20px;
+}
+.item-container{
+    justify-content: flex-start;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    margin-right: 10px;
+    width: 300px;
+    border: 10px solid #FFFFFF;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.item:last-of-type{
+    margin-right: 0px;
+}
+.item img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.button-container{
+    justify-content: space-between;
+}
+h4, .button{
+    padding: 10px 30px;
+}
+.button{
+    text-align: center;
+    border-radius: 20px ;
+    color: #FFFFFF;
+}
+#members-list li {
+    overflow: auto;
+    list-style: none;
+    float: left;
+    width: 30%;
+    margin: 0 20px 28px 0;
+    border: 0;
+}
+
+#members-list.bp-list.grid .item-avatar img {
+    max-width: 200px;
+    width: 100%;
+    border: 1px solid;
+    padding: 3px;
+}
+
+#members-list.item-list.grid .list-wrap {
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+div#ld-profile {
+    max-height: 538px;
+    margin-top: -35px;
+    overflow: scroll;
+}
+
+div#cover-image-container {
+	margin-top : 0px;
+	border-radius: 15px;
+}
+
+#buddypress #item-header #header-cover-image.has-cover-image {
+    border-radius: 15px;
+}
+
+body #buddypress #item-header-cover-image #item-header-avatar img.avatar {
+    box-shadow: 0 2px 5px 0 rgb(18 43 70 / 12%), 0 0 0 1px #e7e9ec; 
+    border: 0px; 
+    max-width: 180px;
+}
+
+.bp-navs ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.bp-dir-hori-nav nav#object-nav {
+    background: #FAFBFD;
+    border: solid 1px #e0e0e0a6;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+nav#object-nav li {
+	padding : 0 30px 0 30px;
+}
+
+.bp-navs ul li.selected a, nav#object-nav .selected > a {
+	border : 0px;
+}
+
+
+.bp-navs ul li.selected, nav#object-nav .selected {
+	background-color : #022F7B;
+	color: #fff;
+	border-radius: 15px;
+}
+
+.profile-loop-header {
+	border : 0px;
+}
+
+.bp-navs ul li:hover {
+	background-color : #022F7B;
+	color: #fff;
+	border-radius: 15px;
+}
+
+.bb-sticky-sidebar, .widget, .wpfc-calendar-wrapper {
+	background-color : #fff;
+	border: 1px solid #e0e0e0a6;
+	border-radius: 15px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+}
+
+.wpfc-calendar-wrapper {
+	padding: 20px;
+}
+
+#dir-members-search {
+display: none;
+}
+
+.members-type-navs {
+	display: none;
+}
+
+.fc-additional-buttons {
+    margin-bottom: -38px;
+		margin-top : 30px;
+}
+
+.fc-prev-button {
+	border-radius: 5px;
+	background-color: #fff;
+	font-size: 30px;
+}
+
+.calendar-widget {
+	float: right;
+}
+
+.widget_em_widget {
+	border: 0px;
+	box-shadow: 0 0px 0px 0 rgb(18 43 70 / 0%), 0 0 0 0px #e7e9ec; 
+}
+
+.bp-secondary-header {
+	display: none;
+}
+
+.bp-screen-reader-text {
+	display: none;
+}
+
+.member-button-wrap.footer-button-wrap {
+	display: none;
+}
+
+
+.follow-container {
+	display: none;
+}
+
+.member-name {
+	margin-top: 20px;
+}
+
+.item-entry .bp-single-member {
+	border-radius: 15px;
+}
+
+.bp-single-memebr:hover {
+	background-color: #145DB5;
+	color: #fff;
+}
+
