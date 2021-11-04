@@ -1,0 +1,55 @@
+.instructor-profile-wrapper {
+    display: flex;
+}
+
+.instructor-profile-card.js-profile-card {
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;width: 25%;
+    flex-direction: column;
+}
+
+.instructor-profile-card__img {
+    padding-bottom: 20px;
+}
+
+.instructor-profile-wrapper {/* background-color: #fff; */margin-left: 40px;}
+
+.instructor-profile-card.js-profile-card {
+    background-color: #fff;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+}
+
+.instructor-profile-card-info {
+    font-weight: 600;
+}
+
+.instructor-profile-card__img img.avatar.avatar-96.photo {
+    width: 180px;
+    border: 1px solid #145DB5;
+    padding: 3px;
+}
+
+.instructor-profile-card__name {font-size: 22px;color: #282828;}
+
+.instructor-profile-card:hover {
+    background-color: #145DB5;
+}
+
+.instructor-profile-card:hover h2, .instructor-profile-card:hover p{
+    color: #fff;
+}
+
+.instructor-profile-card:hover .instructor-profile-card__img img.avatar.avatar-96.photo {
+    border: 1px solid #fff;
+    padding: 3px;
+}
+
+@media screen and (max-width: 800px) {
+    .instructor-profile-card {
+        width: 100%;
+    }
+}
