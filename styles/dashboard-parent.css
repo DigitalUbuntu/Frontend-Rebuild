@@ -1,0 +1,275 @@
+
+h3{
+  margin-left: 70px;
+  color: #267541;
+ 
+}
+.parent-profile-wrapper {
+  display: flex;
+}
+
+.parent-profile-card.js-profile-card {
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;width: 25%;
+  flex-direction: column;
+}
+
+.parent-profile-card.js-profile-card-ul {
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;width: 20%;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+  
+}
+
+.parent-profile-card__img {
+  padding-bottom: 20px;
+}
+
+.parent-profile-wrapper {/* background-color: #fff; */margin-left: 40px;}
+
+
+.parent-profile-card.js-profile-card {
+  background-color: #fff;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+  margin-left: 23px;
+  
+}
+
+ 
+
+.parent-profile-card-info {
+  font-weight: 600;
+}
+
+
+.parent-profile-card__img img.avatar.avatar-96.photo {
+  width: 180px;
+  border: 1px solid gray;
+  padding: 3px;
+}
+
+.parent-profile-card__name {
+  font-size: 22px;
+  color: #282828;
+  margin-left: 5px;
+}
+
+h5.card_title{
+  font-size: 12px;
+}
+
+
+
+.parent-profile-card:hover .parent-profile-card__img img.avatar.avatar-96.photo {
+  border: 1px solid #fff;
+  padding: 3px;
+}
+.add {
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 70px;
+  margin-top: 70px;
+
+  color: #267541;
+ }
+
+ .text-2 { 
+  color: #282828; 
+  font-family: var(--font-family-sfprodisplay-regular); 
+  font-size: var(--font-size-m); 
+  font-weight: 400;
+  margin-top: 80px;
+  
+   
+ }
+ .text-3 { 
+  margin-left: 70px;
+  margin-top:50px;
+	font-size:24px;
+   
+ }
+
+ .text-4{
+  color: #282828; 
+  font-family: var(--font-family-sfprodisplay-regular); 
+  font-size: var(--font-size-m); 
+  font-weight: 400;
+  margin-top: 80px;
+  color: blue;
+  margin-left: 70px;
+ }
+
+ .myButton {
+	box-shadow:inset 0px 39px 0px -24px #DD3444;
+	background-color:#DD3444;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+
+.myButton1 {
+	box-shadow:inset 0px 39px 0px -24px #267541;
+	background-color:#267541;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+
+.myButton1:hover {
+	background-color:#DD3444;
+  box-shadow:inset 0px 39px 0px -24px #DD3444;
+  color: #ffffff;
+}
+.myButton:hover {
+	background-color:#DD3444;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+input.ldap-button.ld-delete-links-button{
+  background-color: #DD3444;
+}
+
+        
+.cards {
+  margin-top: 20px;
+  line-height: 20px;
+  display: flex;
+  padding: revert;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.card:hover {
+  box-shadow: 0px 8px 60px -10px rgba(207, 230, 247, 0.6);
+}
+
+.card-footer {
+  transform: .5s;
+}
+
+.card-footer:hover {
+  background-color: #145DB5;
+}
+
+.card-footer:hover .card_content .card_title {
+  color: #FFF;
+}
+
+.parent-profile-card:hover {
+  background-color: #145DB5;
+}
+
+.parent-profile-card:hover h2, .parent-profile-card:hover p{
+  color: #fff;
+}
+
+.parent-profile-card:hover .parent-profile-card__img img.avatar.avatar-96.photo {
+  border: 1px solid #fff;
+  padding: 3px;
+}
+
+.search {
+
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+input{
+  width: 803px;
+  height: 51px;
+  margin-left: -100px;
+}
+
+.ld-link-accout-wrapper .link_child_email{
+  margin-left: 70px;
+   width: 70%;
+}
+
+
+input[type=submit] {
+  margin-left: 30px;
+  margin-top: -15px;
+}
+
+
+.ld-delete-links-button{
+  background-color: red;
+}
+
+h5:hover{
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  div.parent-profile-card.js-profile-card {
+    width: 100%;
+    margin-left: -21px;
+  }
+  input.ld-button.ld-submit-links-button{
+    margin-left: -15px;
+    margin-top: 12px;
+    width: 113px  ;
+  
+  }
+  h3{
+    margin-left: 22px;
+  }
+  input.input.link_child_email{
+    margin-left: 16px;
+    width: 90%;
+  }
+  input.ld-button.ld-submit-links-button{
+    margin-left: 10px;
+    width: 129px;
+    height: 35px;
+  }
+  .text-3{
+    margin-left: 16px;
+    font-size: 20px;
+    margin-top: -13px;
+  }
+  ul.cards{
+    display:contents;
+  }
+  .parent-profile-card.js-profile-card-ul{
+    width: 100%;
+    margin-top: 10px;
+  }
+  input.ldap-button.ld-delete-links-button{
+    margin-left: 2px;
+    margin-top: -7px;
+    width: 119px;
+    height: 45px;
+    background-color: #DD3444;
+  }
+}
