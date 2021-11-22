@@ -3,7 +3,7 @@ function getAssignment()
 {
     $filters = [];
     $filters['post_type'] = 'sfwd-assignment';
-    $filters['author'] = 49;
+    $filters['author'] = 'user_id';
 
     $filters['orderby'] = [];
     if (isset($_POST['order']) and ($_POST['order'] == 'DESC' || $_POST['order'] == 'ASC')) {
@@ -111,4 +111,3 @@ add_action('wp_ajax_getAssignment', 'getAssigment');
 
 ?>
 
-              
