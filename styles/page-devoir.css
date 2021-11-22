@@ -895,4 +895,8 @@ select::-ms-expand {
     background: #255134;
 }
 
+td{
+    overflow-wrap: anywhere;
+}
+
 /* End Footer Area Css */
