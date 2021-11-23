@@ -1,0 +1,955 @@
+.box {
+    -webkit-box-shadow: 0 0 10px #cecece;
+    box-shadow: 0 0 10px #cecece;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+@media all and (max-width: 1300px) {
+    .single-courses-catagory select, .my-courses-bulk-option select {
+        width: 155px;
+        padding: 8px 5px;
+    }
+
+}
+
+@media all and (max-width: 1199px) {
+    .footer-area {
+        padding: 20px 30px 20px 30px;
+    }
+    .footer-content {
+        padding: 0;
+    }
+    .single-deshboard-manage-item {
+        margin-bottom: 25px;
+    }
+    .sidebar-area {
+        width: 175px;
+    }
+    .full-wrapper {
+        padding-left: 200px;
+    }
+    .header-left-content ul li a {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+    .header-right-profile img {
+        width: 40px;
+        height: 40px;
+    }
+    .header-right-dropdown ul li a {
+        font-size: 14px;
+    }
+    .header-middle-content ul li a {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+    .header-area {
+        padding: 15px 20px;
+    }
+    .header-right-dropdown ul li a {
+        margin-right: 10px;
+    }
+    .courses-search-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 85%;
+        flex: 0 0 85%;
+    }
+    .courses-search-filter {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    }
+    .my-courses-area {
+        padding: 25px 20px 40px 20px;
+    }
+    .my-courses-catagory-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 85%;
+        flex: 0 0 85%;
+    }
+    .my-courses-reset-button {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    }
+    .single-courses-catagory select, .my-courses-bulk-option select {
+        width: 140px;
+    }
+    .my-courses-table-content-desktop table tr th {
+        padding: 10px 15px;
+    }
+    .my-courses-table-content-desktop table tr td {
+        padding: 12px 15px;
+    }
+    .calendar-register {
+        width: 85%;
+    }
+
+    /* Start Landing Page Responsive Css */
+    .container,.lan-footer-all-content {
+        max-width: 960px;
+    }
+    .lan-header-left-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    }
+    .lan-header-right-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 85%;
+        flex: 0 0 85%;
+    }
+    .single-description-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 27.40%;
+        flex: 0 0 27.40%;
+    }
+    .raira-school-right-content {
+        padding-left: 30px;
+    }
+
+
+
+
+}
+
+
+@media all and (max-width: 1075px) {
+
+    .full-wrapper {
+        padding-left: 0;
+    }
+    .sidebar-menu-icon,.sidebar-menu {
+        display: none;
+    }
+    .sidebar-area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: auto;
+        width: inherit;
+        position: relative;
+        padding: 0 15px;
+    }
+    .header-right-content {
+        display: none;
+    }
+    .header-middle-content ul li a {
+        margin: 0;
+        margin-left: 20px;
+    }
+    .header-right-dropdown ul li a {
+        margin-left: 10px;
+        color: #FFFFFF;
+        margin-right: 0;
+    }
+    .header-right-dropdown ul li .teacher-dropdown {
+        background: #267541;
+        padding: 0 4px 10px 4px;
+    }
+    .header-right-content-mobile {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    .footer-area {
+        background: transparent;
+        padding-bottom: 95px;
+    }
+    .main-menu-mobile-content {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .main-menu-mobile-content ul {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    .sidebar-area {
+        padding: 8px 15px;
+    }
+    .single-courses-catagory select, .my-courses-bulk-option select {
+        width: 155px;
+    }
+    .calendar-register {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+}
+
+@media all and (min-width: 991px) {
+    .lan-header-menu ul {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+@media all and (max-width: 991px) {
+    .footer-left-content p {
+        max-width: 220px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .footer-left-content a {
+        margin-left: 20px;
+    }
+    .courses-search-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+    }
+    .courses-search-filter {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+    }
+    .my-courses-table-content-desktop table tr th,.my-courses-table-content-desktop table tr td {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+    .my-courses-table-content-desktop table tr td {
+        font-size: 13px;
+    }
+    .my-courses-table-content-desktop tr td i {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .my-courses-catagory-area {
+        display: none;
+    }
+    .my-courses-search-option {
+        margin-bottom: 25px;
+    }
+    .my-courses-reset-button.mobile {
+        display: block;
+    }
+    .calendar-register {
+        width: 85%;
+    }
+    .report-left-items {
+        width: 98%;
+    }
+    .report-left-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 65.7%;
+        flex: 0 0 65.7%;
+    }
+    .report-right-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 28.7%;
+        flex: 0 0 28.7%;
+    }
+    /* Start Landing Page Responsive Css */
+    .container,.lan-footer-all-content {
+        max-width: 720px;
+    }
+    .all-p-humber {
+        width: 20px;
+        height: 15px;
+    }
+    .all-p-humber span {
+        background: #000;
+    }
+    .lan-header-signup {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .mobile-menu-icons {
+        margin-left: 15px;
+        width: 20px;
+    }
+    .lan-header-menu ul {
+        background: #EDEFF5;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        z-index: 999;
+        padding: 20px 10px;
+        display: none;
+    }
+    .mobile-menu-icons {
+        display: block;
+    }
+    .single-description-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        margin-bottom: 20px;
+    }
+    .raira-school-left-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+    .raira-school-right-content {
+        padding-left: 0;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        padding-top: 20px;
+    }
+    .lan-footer-logo-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        padding-bottom: 20px;
+    }
+    .lan-footer-logo-text p {
+        max-width: inherit;
+    }
+    .single-input input {
+        width: 100%;
+    }
+    .single-input {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 98%;
+        flex: 0 0 98%;
+    }
+    .double-single-input .single-input:last-child {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .lan-footer-same-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        text-align: center;
+    }
+    .lan-footer-copyright-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .lan-footer-privecy {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        margin: 15px 0;
+    }
+    .lan-footer-social ul li a {
+        margin: 0 7px;
+    }
+    .lan-footer-privecy ul li a:first-child {
+        margin: 0 12px;
+    }
+    .lan-footer-copyright-text {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+    .the-best-content h1 {
+        font-size: 60px;
+    }
+    .the-best-content {
+        padding: 70px 30px;
+    }
+    .kindergarten-right-tab-content.tabcontent p {
+        max-width: inherit;
+    }
+    .raira-school-right-heading p {
+        max-width: inherit;
+        padding-bottom: 50px;
+    }
+    .raira-school-area {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+    .group-school-left-content p {
+        width: 95%;
+        font-size: 14px;
+        padding: 25px 0;
+        max-width: inherit;
+    }
+    .group-school-left-content button {
+        font-size: 14px;
+        padding: 14px 40px;
+        border-radius: 5px;
+    }
+    .group-school-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .group-school-left-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        padding-bottom: 40px;
+    }
+    .group-school-right-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+    .larners-left-contents {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+    }
+    .larners-left-image {
+        width: 88%;
+    }
+    .parents-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .larners-area {
+        padding-bottom: 20px;
+    }
+    .parents-area {
+        padding-bottom: 80px;
+    }
+    .parents-right-image {
+        padding-top: 40px;
+    }
+    .kindergarten-right-content {
+        padding-left: 0;
+    }
+    .kindergarten-right-tab-heading h2 {
+        padding-bottom: 40px;
+    }
+    .kindergarten-left-tab-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+    .kindergarten-right-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+    .kindergarten-heading h2 {
+        padding-bottom: 30px;
+    }
+
+}
+
+
+@media all and (max-width: 767px) {
+    .footer-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .footer-left-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .footer-left-content a, .footer-left-content p {
+        margin-bottom: 15px;
+    }
+    .footer-right-content ul li a {
+        margin: 0 7px;
+        margin-top: 10px;
+    }
+    .deshboard-manage-content {
+        padding-bottom: 30px;
+    }
+    .sidebar-logo img {
+        width: 75px;
+    }
+    .header-left-content {
+        display: none;
+    }
+    .header-left-mobile-content {
+        display: block;
+    }
+    .my-courses-table-content-desktop {
+        background: #FFFFFF;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 15px 45px rgba(63, 63, 63, 0.05);
+        box-shadow: 0px 15px 45px rgba(63, 63, 63, 0.05);
+        margin-bottom: 25px;
+        display: none;
+    }
+    .my-courses-table-content-mobile {
+        background: #FFFFFF;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 15px 45px rgba(63, 63, 63, 0.05);
+        box-shadow: 0px 15px 45px rgba(63, 63, 63, 0.05);
+        margin-bottom: 25px;
+        display: block;
+    }
+    .my-courses-table-content-desktop table tr th, .my-courses-table-content-mobile table tr td {
+        width: 50%;
+    }
+    .courses-search-filter {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    }
+    .courses-search-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    }
+    .calendar-register {
+        height: 420px;
+    }
+    .report-left-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+    .report-right-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+    .report-right-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 44%;
+        flex: 0 0 44%;
+    }
+    /* Start Landing Page Responsive Css */
+    .container,.lan-footer-all-content {
+        max-width: 540px;
+    }
+    .send-message-content {
+        width: 90%;
+        margin-bottom: 65px;
+    }
+    .raira-group-content {
+        padding-top: 50px;
+    }
+    .single-description-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 90%;
+        flex: 0 0 90%;
+        margin-bottom: 20px;
+    }
+    .description-content .single-description-content:nth-child(2) {
+        margin-bottom: 20px;
+    }
+    .the-best-content h1 {
+        font-size: 35px;
+    }
+    .larners-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .single-larners-right-content p {
+        width: 90%;
+        max-width: inherit;
+    }
+    .group-school-area {
+        padding-bottom: 70px;
+    }
+    .group-school-area {
+        padding-bottom: 40px;
+    }
+    .child-image img {
+        display: none;
+    }
+    .parents-heading h2 {
+        padding-bottom: 25px;
+        padding-top: 40px;
+    }
+    .kindergarten-heading h2, .kindergarten-right-content h2 {
+        font-size: 35px;
+    }
+
+}
+
+
+@media all and (max-width: 575px) {
+    h1 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .teacher-dashboard-content {
+        padding: 0 20px;
+    }
+    .mendes-teacher-content {
+        background: #267541;
+        max-width: 240px;
+        margin: 25px auto;
+        border-radius: 5px;
+    }
+    .mendes-techer-img img {
+        border: 1px solid #FFFFFF;
+    }
+    .single-deshboard-manage-item {
+        max-width: 240px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .mendes-teacher-text h1,.mendes-teacher-text p {
+        color: #FFFFFF;
+    }
+    .deshboard-manage-content .single-deshboard-manage-item:first-child {
+        background: #267541;
+
+    }
+    .deshboard-manage-content .single-deshboard-manage-item:first-child h1 {
+        color: #FFFFFF;
+    }
+    .single-deshboard-manage-item h1 {
+        color: #267541;
+    }
+    .deshboard-manage-content {
+        padding-bottom: 0;
+    }
+    .deshboard-manage-button button i {
+        font-size: 15px;
+    }
+    .deshboard-manage-button button {
+        font-size: 14px;
+    }
+    .deshboard-manage-heading h1 {
+        font-size: 15px;
+    }
+    .mendes-teacher-content {
+        padding: 25px 20px;
+    }
+    .courses-search-content input.desktop {
+        display: none;
+    }
+    .courses-search-content input.mobile {
+        display: block;
+    }
+    .courses-search-content i {
+        background: transparent;
+    }
+    .courses-search-filter button span {
+        display: none;
+    }
+    .courses-search-filter button i {
+        margin-right: 0;
+    }
+    .courses-search-filter button {
+        padding: 10px 15px;
+    }
+    .courses-search-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 84%;
+        flex: 0 0 84%;
+    }
+    .courses-search-filter {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    }
+    .my-courses-area {
+        padding: 25px 20px 25px 20px;
+    }
+    .calendar-register {
+        width: 80%;
+    }
+    .administration-content {
+        display: block;
+    }
+    .report-area {
+        display: none;
+    }
+    /* Start Landing Page Responsive Css */
+    h2,h3 {
+        font-size: 35px;
+    }
+    .container,.lan-footer-all-content {
+        width: 95%;
+    }
+    .lan-header-signup a {
+        padding: 12px 35px;
+        border-radius: 8px;
+    }
+    .mobile-menu-icons {
+        margin-right: 5px;
+    }
+    .raira-group-content {
+        padding-top: 35px;
+    }
+    .raira-group-heading p {
+        font-size: 14px;
+        line-height: 1.3;
+        padding-bottom: 25px;
+    }
+    .kindergarten-right-tab-button.tab button {
+        font-size: 14px;
+        width: 140px;
+        height: 45px;
+        border-radius: 5px;
+    }
+    .raira-school-right-heading p {
+        padding-bottom: 40px;
+    }
+    .kindergarten-right-tab-button.tab {
+        padding-bottom: 25px;
+    }
+    .kindergarten-right-tab-content.tabcontent p {
+        font-size: 14px;
+    }
+    .raira-school-left-content img {
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+    .single-description-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 85%;
+        flex: 0 0 85%;
+    }
+    .send-message-content {
+        width: 90%;
+    }
+    .container, .lan-footer-all-content {
+        width: 95%;
+        padding: 0;
+    }
+    .larners-right-heading h2 {
+        padding-bottom: 40px;
+    }
+    .single-larners-content {
+        padding-bottom: 30px;
+    }
+    .single-larners-left-content img {
+        width: 55px;
+        margin-top: -5px;
+    }
+    .group-school-left-content button {
+        font-size: 13px;
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
+    .lan-footer-heading-text h4 {
+        font-size: 14px;
+    }
+    .group-school-area {
+        padding-top: 35px;
+    }
+    .kindergarten-heading h2, .kindergarten-right-content h2 {
+        font-size: 30px;
+    }
+    .kindergarten-area {
+        padding: 40px 0;
+    }
+
+}
+
+
+@media all and (max-width: 450px) {
+    .deshboard-manage-button button {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+    .main-menu-mobile-content ul {
+        padding: 15px 20px;
+    }
+    .main-menu-mobile-content ul li a {
+        font-size: 13px;
+    }
+    .header-right-dropdown ul li a {
+        font-size: 13px;
+    }
+    .header-left-mobile-content ul li a {
+        font-size: 13px;
+        width: 120px;
+    }
+    .header-left-mobile-content ul li .header-dropdown-mobile {
+        top: 42px;
+    }
+    .sidebar-logo img {
+        width: 60px;
+    }
+    .my-courses-table-content-mobile table tr th,.my-courses-table-content-mobile table tr td {
+        padding: 10px 10px;
+    }
+    .my-courses-right-header ul li a {
+        font-size: 13px;
+    }
+    .my-courses-right-header ul li:last-child a {
+        margin-left: 20px;
+    }
+    .my-courses-right-header ul li:last-child a::after {
+        height: 12px;
+        left: -9px;
+    }
+    .my-courses-tab-button ul li a {
+        font-size: 13px;
+        margin-right: 15px;
+    }
+    .my-courses-tab-button ul li a i {
+        margin-right: 10px;
+    }
+    .courses-search-content input {
+        font-size: 13px;
+    }
+    .courses-search-filter button {
+        font-size: 13px;
+    }
+    .courses-search-content i {
+        font-size: 15px;
+    }
+    .courses-search-filter {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    }
+    .courses-search-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    }
+    .single-courses-catagory select, .my-courses-bulk-option select {
+        width: 125px;
+    }
+    .my-courses-bulk-apply a {
+        font-size: 13px;
+        margin-left: 12px;
+    }
+    .my-courses-reset-button button {
+        font-size: 13px;
+        padding: 8px 25px;
+    }
+    .my-courses-tab-button ul li a {
+        margin-right: 0;
+    }
+    .my-courses-tab-button ul {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .calendar-register {
+        width: 75%;
+        height: 300px;
+    }
+    /* Start Landing Page Responsive Css */
+    .lan-header-signup a {
+        padding: 10px 30px;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+    .mobile-menu-icons {
+        margin-right: 10px;
+    }
+    .lan-footer-copyright-text {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .lan-footer-same-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        padding-bottom: 15px;
+    }
+    .lan-footer-logo-text p {
+        padding-top: 15px;
+    }
+    h2, h3 {
+        font-size: 25px;
+    }
+    .raira-group-heading p {
+        font-size: 13px;
+        line-height: 1.2;
+        padding-bottom: 20px;
+    }
+    .kindergarten-right-tab-button.tab button {
+        font-size: 12px;
+        width: 100px;
+        height: 38px;
+    }
+    .single-form-item input, .single-form-item textarea {
+        padding: 12px 5px;
+        font-size: 12px;
+    }
+    .send-message-content {
+        width: 84%;
+    }
+    .the-best-content h1 {
+        font-size: 22px;
+    }
+    .the-best-content {
+        padding: 40px 30px;
+    }
+    .single-form-item textarea {
+        height: 70px;
+    }
+    .single-form-item {
+        padding-bottom: 15px;
+    }
+    .group-school-right-content img {
+        width: 90%;
+    }
+    .single-larners-content {
+        padding-bottom: 20px;
+    }
+    .larners-left-image {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .larners-left-image::after {
+        height: 95%;
+    }
+    .single-larners-right-content h5 {
+        font-size: 15px;
+        max-width: 175px;
+    }
+    .larners-left-image img {
+        margin-left: 0;
+    }
+    .larners-left-image::after {
+        left: -10px;
+    }
+    .group-school-left-content p {
+        padding-top: 12px;
+    }
+    .parents-tab-button.tab button {
+        font-size: 14px;
+        padding: 0;
+        width: 85px;
+        height: 35px;
+    }
+    .kindergarten-heading h2, .kindergarten-right-content h2 {
+        font-size: 25px;
+    }
+    .kindergarten-right-tab-heading h2 {
+        padding-bottom: 25px;
+    }
+    .kindergarten-right-tab-button.tab,.kindergarten-heading h2 {
+        padding-bottom: 20px;
+    }
+    .the-best-area {
+        padding-bottom: 45px;
+    }
+
+}
