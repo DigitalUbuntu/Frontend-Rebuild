@@ -14,7 +14,7 @@ get_header('landing');
             <!-- lan footer logo content -->
             <div class="lan-footer-logo-content">
                 <div class="lan-footer-logo">
-                    <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/l_logo.png"
+                    <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ucao_logo_foot.png"
                                       alt="Images"></a>
                 </div>
                 <div class="lan-footer-logo-text">
