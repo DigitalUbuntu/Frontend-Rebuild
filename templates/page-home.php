@@ -19,7 +19,7 @@ get_header('landing');
                     l’UCAO</p>
             </div>
             <div class="raira-group-image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ucao2.png" alt="Images">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ucao3.png" alt="Images">
             </div>
         </div>
     </div>
