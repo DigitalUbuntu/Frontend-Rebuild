@@ -19,7 +19,7 @@ get_header('landing');
                     l’UCAO</p>
             </div>
             <div class="raira-group-image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about.png" alt="Images">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ucao2.png" alt="Images">
             </div>
         </div>
     </div>
@@ -38,8 +38,10 @@ get_header('landing');
                 </div>
                 <div class="single-description-text">
                     <h4>Description</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam sed cursus enim, massa
-                        aliquam. Urna morbi ipsum eget sagittis, elit fermentum. Sed in fringilla elementum
+                    <p>Conformément à la charte de bonne gouvernance, et aux statuts de l’UCAO/UUZ, l’institution Saint
+                        Michel se propose d’être un établissement de référence, dans le domaine des sciences de gestion.
+                        L’institut participe à la diffusion du savoir dans le respect des traditions universitaires au
+                        profit de la communauté.
 
                     </p>
                 </div>
@@ -53,8 +55,8 @@ get_header('landing');
                 </div>
                 <div class="single-description-text">
                     <h4>Mission</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam sed cursus enim, massa
-                        aliquam. Urna morbi ipsum eget sagittis, elit fermentum. Sed in fringilla elementum
+                    <p>Il tend à créer les conditions qui favorisent la culture du mérite et de l’excellence, dans le
+                        respect de toutes les spécificités dans un environnement marqué par une gestion vertueuse.
 
                     </p>
                 </div>
@@ -68,10 +70,16 @@ get_header('landing');
                 </div>
                 <div class="single-description-text">
                     <h4>Vision</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam sed cursus enim, massa
-                        aliquam. Urna morbi ipsum eget sagittis, elit fermentum. Sed in fringilla elementum
 
-                        .</p>
+                    <ul>
+                        <li class="li-liste">Assurer la formation initiale des jeunes bacheliers;</li>
+                        <li class="li-liste">Former des professionnels de haut niveau capables d’apporter une valeur
+                            ajoutée à
+                            l’entreprise;
+                        </li>
+
+                    </ul>
+
                 </div>
             </div>
             <!-- single description content -->

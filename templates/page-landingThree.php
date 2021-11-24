@@ -14,20 +14,20 @@ get_header('landing');
         <div class="container">
             <div class="kindergarten-content">
                 <div class="kindergarten-heading">
-                    <h2>KINDERGARDTEN</h2>
+                    <h2>Master en Finance</h2>
                 </div>
                 <div class="kindergarten-tab-content">
                     <div class="kindergarten-left-tab-content">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/kinder.png" alt="Images">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ucao1.png" alt="Images">
                     </div>
                     <div class="kindergarten-right-content">
                         <div class="kindergarten-right-tab-heading">
-                            <h2>KINDERGARDTEN</h2>
+                            <h2>Master en Finance</h2>
                         </div>
                         <div class="kindergarten-right-tab-button tab">
-                            <button class="tablinks active" onclick="openCity(event, 'About')">About</button>
-                            <button class="tablinks" onclick="openCity(event, 'Offers')">Offers</button>
-                            <button class="tablinks" onclick="openCity(event, 'Environment')">Environment</button>
+                            <button class="tablinks active" onclick="openCity(event, 'About')">A propos</button>
+                            <button class="tablinks" onclick="openCity(event, 'Offers')">Offre</button>
+                            <button class="tablinks" onclick="openCity(event, 'Environment')">Environnement</button>
                         </div>
                         <div class="kindergarten-right-tab-content tabcontent" id="About" style="display: block;">
                             <p>Conformément à la charte de bonne gouvernance, et aux statuts de l’UCAO/UUZ,
@@ -36,9 +36,11 @@ get_header('landing');
                                 respect des traditions universitaires au profit de la communauté.</p>
                         </div>
                         <div class="kindergarten-right-tab-content tabcontent" id="Offers">
-                            <p>Il tend à créer les conditions qui favorisent la culture du mérite et de l’excellence,
-                                dans le respect de toutes les spécificités dans un environnement marqué par une gestion
-                                vertueuse.,</p>
+                            <p>
+
+                                Initier les jeunes à l’auto emploi, afin qu’ils puissent participer à la création
+                                d’entreprises à travers l’incubateur d’entreprise installée au sein de l’ISG Saint
+                                Michel.</p>
                         </div>
                         <div class="kindergarten-right-tab-content tabcontent" id="Environment">
                             <p>Il tend à créer les conditions qui favorisent la culture du mérite et de l’excellence,
@@ -63,21 +65,21 @@ get_header('landing');
         </div>
     </div>
     <!-- End The Best Area -->
-
     <!-- Start Lan Footer Area -->
+
     <footer class="lan-footer-area">
         <div class="lan-footer-all-content">
             <div class="lan-footer-content">
                 <!-- lan footer logo content -->
                 <div class="lan-footer-logo-content">
                     <div class="lan-footer-logo">
-                        <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/l_logo.png"
-                                         alt="Images"></a>
+                        <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ucao_logo_foot.png"
+                                          alt="Images"></a>
                     </div>
                     <div class="lan-footer-logo-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nibh aenean quam pharetra, ut
-                            id
-                            purus. Vulputate volutpat nunc rutrum eget semper </p>
+                        <p>L’UCAO/UUZ, un établissement de référence dans le domaine des sciences de gestion, se redéfinit
+                            pour le bénéfice de la population apprenante africaine et devient l’Université Virtuelle de
+                            l’UCAO</p>
                     </div>
                 </div>
                 <!-- lan footer logo content -->
@@ -148,7 +150,9 @@ get_header('landing');
             </div>
         </div>
     </footer>
+
     <!-- End Lan Footer Area -->
+
 
 
     <!-- link js -->
