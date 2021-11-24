@@ -1463,6 +1463,10 @@ h3 {
     height: 42px;
     cursor: pointer;
 }
+
+.li-liste {
+    list-style: circle;
+}
 .parents-tab-button.tab button:hover,.parents-tab-button.tab button.active {
     font-weight: 500;
     border-bottom: 2px solid #03448F;
@@ -1509,8 +1513,8 @@ h3 {
     align-items: center;
 }
 .lan-header-logo a img {
-    width: 45px;
-    height: auto;
+    width: 120px;
+
 }
 .lan-header-menu ul {
     display: -webkit-box;
@@ -1580,7 +1584,6 @@ h3 {
 .kindergarten-tab-content {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -1598,7 +1601,7 @@ h3 {
     -ms-flex: 0 0 42%;
     flex: 0 0 42%;
     padding-left: 80px;
-    padding-top: 25px;
+
 }
 .kindergarten-left-tab-content img {
     width: 100%;
@@ -1616,7 +1619,7 @@ h3 {
     line-height: 1.4;
 }
 .kindergarten-right-tab-heading h2 {
-    padding-bottom: 100px;
+    padding-bottom: 19px;
 }
 .kindergarten-right-tab-content.tabcontent p {
     font-size: 15px;
@@ -1719,8 +1722,7 @@ h3 {
     flex: 0 0 18%;
 }
 .lan-footer-logo a img {
-    width: 40px;
-    height: auto;
+    width:170px
 }
 .lan-footer-logo-text p {
     font-size: 14px;
